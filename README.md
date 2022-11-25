@@ -32,9 +32,9 @@ separated by a comma:
 
 ```js
 function logTwoValues(value1, value2) {
-  console.log(`The two values are ${value1} and ${value2}.`);
+  console.log(`The two values are ${value1} and ${value2}.`;
 }
-```
+```)
 
 As you might expect, if we instead wanted to log three values — or ten
 values — we can just continue listing the parameters in the parentheses,
